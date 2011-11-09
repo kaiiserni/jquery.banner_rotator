@@ -1,7 +1,7 @@
 This is a jQuery plugin to create a banner with rotating images
 
 ```javascript
-var options = {
+$("#").bannerRotator({
 			"banner_urls" : [],
 			"banner_space" : 5,
 			"width" : 600,
@@ -11,5 +11,5 @@ var options = {
 			"subtitles" : [],
 			"text_color" : "#000000",
 			"text_font" : "Arial"
-		}
+});
 ```
